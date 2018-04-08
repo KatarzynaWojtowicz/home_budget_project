@@ -4,6 +4,8 @@ public class UserTo {
 	private String login;
 	private String username;
 	private String userLastName;
+	private String password;
+	private String email;
 
 	public String getLogin() {
 		return login;
@@ -44,8 +46,5 @@ public class UserTo {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
-	private String password;
-	private String email;
 
 }
